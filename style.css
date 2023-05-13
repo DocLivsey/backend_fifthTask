@@ -1,3 +1,4 @@
+/*общий стиль для безклассовых блоков*/
 body {
     margin: 0%;
     font-size: 120%;
@@ -8,7 +9,76 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
 }
-/*общий стиль для безклассовых блоков*/
+input{
+    font-size: 100%;
+    border: outset;
+}
+select{
+    font-size: 100%;
+    border: outset;
+}
+textarea{
+    font-size: 100%;
+    border: outset;
+}
+button{
+    font-size: 100%;
+    border: outset;
+}
+/*стили для классовых элементов*/
+.main-contant{
+    display: flex;
+    margin: 1%;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    width: 40%;
+    background-color: rgb(217, 232, 229, 0.7);
+}
+.user-form-div{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+.header-user-form{
+    border-bottom: groove;
+}
+.user-fields{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+.submit-button{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-top: groove;
+}
+.login-form-div{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: inset;
+    margin-top: 10%;
+    width: 25%;
+    background-color: rgb(217, 232, 229, 0.7);
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-fields{
+    display: flex;
+    margin: 1%;
+}
+#submit-button{
+    margin-top: 1%;
+    width: 100%;
+}
 
 @keyframes gradient {
     0% {
